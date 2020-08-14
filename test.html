@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="test.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="item1">
+        <div class="ban-container">
+          <div class="ban-item">1</div>
+          <div class="ban-item should-have-value">2</div>
+          <div class="ban-item">3</div>
+          <div class="ban-item should-have-value">4</div>
+          <div class="ban-item">5</div>
+          <div class="ban-item should-have-value">6</div>
+          <div class="ban-item">7</div>
+          <div class="ban-item should-have-value">8</div>
+          <div class="ban-item">9</div>
+        </div>
+      </div>
+      <div>2</div>
+      <div class="hang-container">
+        <div class="ban-item should-have-value">1</div>
+        <div class="ban-item should-have-value">2</div>
+        <div class="ban-item should-have-value">3</div>
+        <div class="ban-item should-have-value">4</div>
+      </div>
+      <div class="item4"></div>
+    </div>
+    <button onclick="boNguoiVaoBan()">bo nguoi vo</button>
+    <button onclick="layNguoiRaBan()">lay nguoi ra</button>
+    <button onclick="layNguoiRaHang()">layNguoiRaHang</button>
+    <button onclick="boNguoiVaoHang()">boNguoiVaoHang</button>
+  </body>
+</html>
