@@ -9,7 +9,7 @@ const boNguoiVaoBan = () => {
   test[banIndex].innerHTML = ban[banIndex];
   banIndex++;
 };
-const layNguoiRaBan = () => {
+const layNguoiRaBan = () => { 
   if (banIndex == 0) return;
   banIndex--;
   const test = document.querySelectorAll(`.ban-container .should-have-value`);
